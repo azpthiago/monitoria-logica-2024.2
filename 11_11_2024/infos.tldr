@@ -1,0 +1,549 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 5,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"x": 0.06903849434729636,
+			"y": 40.46028101805007,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:CeduPLoZboM_X4HYm2Ott",
+			"type": "geo",
+			"props": {
+				"w": 796.286274474344,
+				"h": 519.4372860001929,
+				"geo": "rectangle",
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "solid",
+				"size": "s",
+				"font": "sans",
+				"text": "- Para utilizar o C no VSCode você precisa instalar o compilador de C e C++ utilizando o MinGW\n- Adicione a pasta bin do MinGW a suas variáveis de ambiente para que possa compilar no terminar.\n- Para compilar manualmente utilize o seguinte comendo\n\n-> `gcc nome_do_arquivo.c -o nome_do_arquivo_saida`\n\nPara executar utilize\n\n-> `./nome_do_arquivo_saida`\n\n\nCaso queira compilar de maneira mais facil utilize a extensão\n\n`C/C++ Compile Run",
+				"align": "start",
+				"verticalAlign": "start",
+				"growY": 0,
+				"url": "",
+				"scale": 1.2345679012345678
+			},
+			"parentId": "shape:0VA_OcmwCdCRZRSvKxp1Z",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 3.7408923849814073,
+			"y": -24.35253352690509,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:1FqUC9MPrzsRTlloCVjXu",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "xl",
+				"w": 477.553466796875,
+				"text": "C no Visual Studio Code",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "shape:0VA_OcmwCdCRZRSvKxp1Z",
+			"index": "a249a",
+			"typeName": "shape"
+		},
+		{
+			"x": 74.85088296850341,
+			"y": 188.47600909099768,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0VA_OcmwCdCRZRSvKxp1Z",
+			"type": "group",
+			"parentId": "shape:CkwMehi7fepvGuXN-4oW0",
+			"index": "a1",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 11.587229306162044,
+			"y": 112.11377215070183,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:b-gtPaJRjVRysu003-Lha",
+			"type": "geo",
+			"props": {
+				"w": 953.0347546179761,
+				"h": 715.9093493357948,
+				"geo": "rectangle",
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "solid",
+				"size": "s",
+				"font": "sans",
+				"text": "",
+				"align": "start",
+				"verticalAlign": "start",
+				"growY": 0,
+				"url": "",
+				"scale": 5.005607291792388
+			},
+			"parentId": "shape:CkwMehi7fepvGuXN-4oW0",
+			"index": "a281l",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:8XOCgQbjm_bAUmsQuvHtP",
+			"type": "text",
+			"props": {
+				"color": "blue",
+				"size": "s",
+				"w": 216.97402954101562,
+				"text": "Configuração de ambiente",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 4.3737096122947365
+			},
+			"parentId": "shape:CkwMehi7fepvGuXN-4oW0",
+			"index": "a39NN",
+			"typeName": "shape"
+		},
+		{
+			"x": -2600,
+			"y": -680,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:CkwMehi7fepvGuXN-4oW0",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "a4Al0",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:N0xuiBGQxMVHiIfASfM0l",
+			"type": "text",
+			"props": {
+				"color": "light-red",
+				"size": "s",
+				"w": 394.30347020464046,
+				"text": "<stdio.h>",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 5.005607291792388
+			},
+			"parentId": "shape:1TaR2Etxmp6D2G4NxqsbO",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 130,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rbvVroiRnV3Dpng_xGI6O",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 395.7416522163243,
+				"text": "- É a cabeçalho da lib (library ou biblioteca) padrão de C utilizada para realizar funcionalidades basicas como input e output de dados\n\nO'que ela traz:\n-> printf(): Função usada para imprimir dados na tela\n-> scanf() — Função usada para capturar dados do usuário\n-> fprintf() — Função usada para imprimir dados em arquivo\n-> fscanf() — Função usada para ler dados de arquivo",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 3.108088302334284
+			},
+			"parentId": "shape:1TaR2Etxmp6D2G4NxqsbO",
+			"index": "a28Rw",
+			"typeName": "shape"
+		},
+		{
+			"x": 100,
+			"y": 810,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:1TaR2Etxmp6D2G4NxqsbO",
+			"type": "group",
+			"parentId": "shape:G5PYiL2vQB3bWUbBUUt0v",
+			"index": "a1",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 10,
+			"y": 220,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:aNLurZzmUzHAKsLFGLMZQ",
+			"type": "geo",
+			"props": {
+				"w": 3892.29106813926,
+				"h": 2384.873082814936,
+				"geo": "rectangle",
+				"color": "light-red",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "solid",
+				"size": "s",
+				"font": "sans",
+				"text": "",
+				"align": "start",
+				"verticalAlign": "start",
+				"growY": 0,
+				"url": "",
+				"scale": 8.827736906077039
+			},
+			"parentId": "shape:G5PYiL2vQB3bWUbBUUt0v",
+			"index": "a2BSi",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:svtE6qjNUDniN5qA2-Y0v",
+			"type": "text",
+			"props": {
+				"color": "light-red",
+				"size": "s",
+				"w": 818.707470310464,
+				"text": "Bibliotecas",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 8.827736906077039
+			},
+			"parentId": "shape:G5PYiL2vQB3bWUbBUUt0v",
+			"index": "a35Yz",
+			"typeName": "shape"
+		},
+		{
+			"x": 80,
+			"y": 290,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:XZIe7QecfDMvYVMqtuMHs",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 284.22139712755995,
+				"text": "Biblioteca é um subconjunto de programas utilizado no desenvolvimento de aplicações",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 4.2530106937799905
+			},
+			"parentId": "shape:G5PYiL2vQB3bWUbBUUt0v",
+			"index": "a4Aiz",
+			"typeName": "shape"
+		},
+		{
+			"x": 772.5468308773834,
+			"y": 463.9811720433204,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:UwtVDSnNuFvHHnOsMwQDJ",
+			"type": "arrow",
+			"props": {
+				"dash": "solid",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 2,
+					"y": 0
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 10
+			},
+			"parentId": "shape:G5PYiL2vQB3bWUbBUUt0v",
+			"index": "a582b",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:XDJyePoEZB-x--p1TZvOF",
+			"type": "arrow",
+			"fromId": "shape:UwtVDSnNuFvHHnOsMwQDJ",
+			"toId": "shape:XZIe7QecfDMvYVMqtuMHs",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5232863901349362,
+					"y": 0.5289715227203883
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:3gufsETjvf6rm4TBAKbXr",
+			"type": "arrow",
+			"fromId": "shape:UwtVDSnNuFvHHnOsMwQDJ",
+			"toId": "shape:rbvVroiRnV3Dpng_xGI6O",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.440680888210144,
+					"y": 0.28087737899546456
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": -3820,
+			"y": 360,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:G5PYiL2vQB3bWUbBUUt0v",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "aA68R",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": -1802.9203696823347,
+			"y": -161.9818349575337,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0Vz8JgFCwEmjBJMnQq9pm",
+			"type": "arrow",
+			"props": {
+				"dash": "solid",
+				"size": "s",
+				"fill": "none",
+				"color": "green",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": -159.19158626957937,
+					"y": 152.18093203504745
+				},
+				"end": {
+					"x": 827.1339039675081,
+					"y": 1000.7288544369649
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 8.603474013927409
+			},
+			"parentId": "page:page",
+			"index": "aB8s7",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:BFoPpfFKmIyju8yJAbZje",
+			"type": "arrow",
+			"fromId": "shape:0Vz8JgFCwEmjBJMnQq9pm",
+			"toId": "shape:aNLurZzmUzHAKsLFGLMZQ",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.44664537192261666,
+					"y": 0.07456030414649692
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:TbtIyMC-vcru3jCjdO0RJ",
+			"type": "arrow",
+			"fromId": "shape:0Vz8JgFCwEmjBJMnQq9pm",
+			"toId": "shape:b-gtPaJRjVRysu003-Lha",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.6635824721606758,
+					"y": 0.9948531401511337
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -2072.846495321891,
+			"y": 143.91297173404075,
+			"lastActivityTimestamp": 1731025669241,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "ns-resize",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1034.72216796875,
+				"h": 434.02777099609375
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.7280000448226929,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:b-gtPaJRjVRysu003-Lha"
+			],
+			"hoveredShapeId": "shape:b-gtPaJRjVRysu003-Lha",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": "shape:CkwMehi7fepvGuXN-4oW0",
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 4075.0286693213757,
+			"y": 832.7114833550352,
+			"z": 0.2838338367605454,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		}
+	]
+}
