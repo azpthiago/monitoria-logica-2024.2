@@ -1,0 +1,720 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 5,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -1659.4832784115208,
+			"y": -129.24684568176116,
+			"lastActivityTimestamp": 1731133670464,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:horizontalAlign": "start",
+				"tldraw:size": "s",
+				"tldraw:font": "sans",
+				"tldraw:textAlign": "middle"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 983.2175903320312,
+				"h": 434.02777099609375
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": true,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.7280000448226929,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 2142.243426047443,
+			"y": 158.89092105287503,
+			"z": 0.8726824225841857,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": -40,
+			"y": 120,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:xaL5NotzdNi0DRkP0RwZS",
+			"type": "geo",
+			"props": {
+				"w": 379.9998474121094,
+				"h": 104.88954162597656,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"font": "sans",
+				"text": "Compilação é o processo de transformar um código de linguaguem em binário nativo/executal",
+				"align": "start",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 342.1942085108156,
+			"y": 172.1912576351831,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Dn5CvADA8Uut7hOa3Uzrr",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 84.78818926295435,
+					"y": -187.72865050878224
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a47mh",
+			"typeName": "shape"
+		},
+		{
+			"x": 70,
+			"y": -80,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:tsCRmnqgYFXMSt-Oprg75",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 229.78689575195312,
+				"text": "Tudo no computador é 0 e 1",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a37AM",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:7MKOsiJylT29GRXlZHSXk",
+			"type": "arrow",
+			"fromId": "shape:Dn5CvADA8Uut7hOa3Uzrr",
+			"toId": "shape:tsCRmnqgYFXMSt-Oprg75",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.3979552567050303,
+					"y": 0.6701083137618847
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:lcR9ys5wURvf7_zCgpy7L",
+			"type": "arrow",
+			"fromId": "shape:Dn5CvADA8Uut7hOa3Uzrr",
+			"toId": "shape:xaL5NotzdNi0DRkP0RwZS",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": -38.35167089838774,
+			"y": 167.62487932293257,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:nPmDPD16bWVQgypA_QdIe",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -249.9020232547063,
+					"y": -62.03389126444611
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a639G",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:vtIAUxo9tlVeCR_vfGkBQ",
+			"type": "arrow",
+			"fromId": "shape:nPmDPD16bWVQgypA_QdIe",
+			"toId": "shape:xaL5NotzdNi0DRkP0RwZS",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.00433770990393228,
+					"y": 0.45404793065792143
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": -700,
+			"y": 60,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:qlUnIDQFknikSUhM11OVh",
+			"type": "geo",
+			"props": {
+				"w": 400,
+				"h": 104.88954162597656,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"font": "sans",
+				"text": "Compilador é um programa que transforma o seu código de alto nível em linguaguem de máquina.",
+				"align": "start",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a52nQ",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:NRH8LMvb9EIwW2i15cumn",
+			"type": "arrow",
+			"fromId": "shape:nPmDPD16bWVQgypA_QdIe",
+			"toId": "shape:qlUnIDQFknikSUhM11OVh",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.8545830645240868,
+					"y": 0.4488388658526285
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 116.8380313018352,
+			"y": 218.39363169183247,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:-l7KdC7S2D_BzQ0Bu8zv4",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 99.68379653254578,
+					"y": 101.15478962673933
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a83Kq",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:EltryWP-aYXgdJOZQxD8K",
+			"type": "arrow",
+			"fromId": "shape:-l7KdC7S2D_BzQ0Bu8zv4",
+			"toId": "shape:xaL5NotzdNi0DRkP0RwZS",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.41273182705187916,
+					"y": 0.9380690406932302
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 130,
+			"y": 260,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2dxbyuTD8HoHWijRPF7VW",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 114.4259262084961,
+				"text": "Pega o código",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a7COL",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:FxoXiYb8AhL-akE7ncsGW",
+			"type": "arrow",
+			"fromId": "shape:-l7KdC7S2D_BzQ0Bu8zv4",
+			"toId": "shape:2dxbyuTD8HoHWijRPF7VW",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 210.81261745067104,
+			"y": 329.8558618801234,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:o_Pk-U3JeKgEJvUZfczcG",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 83.96383666099973,
+					"y": 109.30457184212474
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aB6B2",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:pZS1eCygeh63rmi_rsj2n",
+			"type": "arrow",
+			"fromId": "shape:o_Pk-U3JeKgEJvUZfczcG",
+			"toId": "shape:2dxbyuTD8HoHWijRPF7VW",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4440655988930786,
+					"y": 0.4056492403192992
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 50,
+			"y": 330,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:oapKL2AhsM8Z6lkJrLEFE",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 330.2191162109375,
+				"text": "Compila e gera um executavel que é \num binário que o computador interpreta",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aA8qu",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:AxLCkoHJX1EA_3n8wT24s",
+			"type": "arrow",
+			"fromId": "shape:o_Pk-U3JeKgEJvUZfczcG",
+			"toId": "shape:oapKL2AhsM8Z6lkJrLEFE",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4556595727438782,
+					"y": 0.3302617322321608
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 346.1887904767414,
+			"y": 378.6431626638593,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:FWqbjuNUQI1I6gizvbXCR",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -34.15094832086413,
+					"y": 101.15481396360366
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aE3WA",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:on_B6Z9_GsRB8VySqaiPV",
+			"type": "arrow",
+			"fromId": "shape:FWqbjuNUQI1I6gizvbXCR",
+			"toId": "shape:oapKL2AhsM8Z6lkJrLEFE",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.8969462273272569,
+					"y": 0.5894500813961859
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 110,
+			"y": 430,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:eeCewBsJEC_X1jIqpvmQ8",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 312.70428466796875,
+				"text": "Inicia o código que passa as intruções\ne executa as funções",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aD1HS",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:aY48VsC1MWvvkIWB6nLrf",
+			"type": "arrow",
+			"fromId": "shape:FWqbjuNUQI1I6gizvbXCR",
+			"toId": "shape:eeCewBsJEC_X1jIqpvmQ8",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.3819002404551709,
+					"y": 0.05282602539806644
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 332.73817596111894,
+			"y": 161.09254515847763,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3R6sN2-UnU9RctiP1vI_e",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 209.66863662266962,
+					"y": -56.29861861592178
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "sans",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aGB36",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:Rz5E9egW-k5vtdRqFaz_H",
+			"type": "arrow",
+			"fromId": "shape:3R6sN2-UnU9RctiP1vI_e",
+			"toId": "shape:xaL5NotzdNi0DRkP0RwZS",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.9808903306134353,
+					"y": 0.39176970860458793
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 510,
+			"y": 30,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:qNGi33LVCX1O1lAaM1A0h",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 406.68939208984375,
+				"text": "Binário de Windows é diferente de \nbínario de linux que é diferente de bínario de Mac",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aF0Fo",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:vajDFoIhh_7ltdC3QQ3el",
+			"type": "arrow",
+			"fromId": "shape:3R6sN2-UnU9RctiP1vI_e",
+			"toId": "shape:qNGi33LVCX1O1lAaM1A0h",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.07077786807524389,
+					"y": 0.3408279142200985
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		}
+	]
+}

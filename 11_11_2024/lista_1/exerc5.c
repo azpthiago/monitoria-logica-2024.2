@@ -1,9 +1,11 @@
+#include <locale.h>
 #include <stdio.h>
-#include <locale.h> 
-int main () {
-  setlocale(LC_ALL, "Portuguese"); 
-  
-  // Faça um algoritmo que leia três notas de um aluno, calcule e escreva a média final deste aluno. Considerar que a média é ponderada e que o peso das notas é 2, 3 e 5..
+int main() {
+  setlocale(LC_ALL, "Portuguese");
+
+  // Faça um algoritmo que leia três notas de um aluno, calcule e escreva a
+  // média final deste aluno. Considerar que a média é ponderada e que o peso
+  // das notas é 2, 3 e 5..
 
   float primeiraNota, segundaNota, terceiraNota, media;
 
@@ -16,7 +18,7 @@ int main () {
   printf("+ Digite a terceira nota: ");
   scanf("%f", &terceiraNota);
 
-  media = (primeiraNota*2 + segundaNota*3 + terceiraNota*5)/ 10;
+  media = (primeiraNota * 2 + segundaNota * 3 + terceiraNota * 5) / 10;
 
   printf("-> A sua média é de: %.2f", media);
 

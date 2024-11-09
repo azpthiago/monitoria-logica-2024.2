@@ -1,11 +1,13 @@
+#include <locale.h>
 #include <stdio.h>
-#include <locale.h> 
-int main () {
-  setlocale(LC_ALL, "Portuguese"); 
-  
-  // Escreva um algoritmo que realize a conversão completa das medidas de comprimento..
+int main() {
+  setlocale(LC_ALL, "Portuguese");
 
-  float kilometro, hectometro, decametro, metros, decimetro, centimetro, milimetro;
+  // Escreva um algoritmo que realize a conversão completa das medidas de
+  // comprimento..
+
+  float kilometro, hectometro, decametro, metros, decimetro, centimetro,
+      milimetro;
 
   printf("+ Digite a medida em metros: ");
   scanf("%f", &metros);
@@ -16,7 +18,6 @@ int main () {
   decimetro = metros * 10;
   centimetro = metros * 100;
   milimetro = metros * 1000;
-
 
   printf("-> Kilometros: %.2fkm\n", kilometro);
   printf("-> Hectometro: %.2fhm\n", hectometro);
