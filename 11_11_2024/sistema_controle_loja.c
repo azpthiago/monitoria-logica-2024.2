@@ -91,7 +91,7 @@ int main() {
 
         printf("\n+ Calças: %i", calca);
         if (calca < MIN_ESTOQUE)
-          printf(" -> Aviso: Estoque baixo de calas!\n");
+          printf(" -> Aviso: Estoque baixo de calças!\n");
 
         printf("\n+ Sapatos: %i", sapatos);
         if (sapatos < MIN_ESTOQUE)
